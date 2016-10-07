@@ -2,11 +2,73 @@
 	background-color: #1a2325;
 }
 
+header {
+}
+
+article {
+}
+
+h2 {
+	font-family: QuatroSlab;
+	font-size: 36px;
+	color: #ffffff;
+}
+
+h3 {
+	font-family: QuatroSlab;
+	font-size: 24px;
+	color: #ffffff;
+}
+
 p {
-	font-family: ;
+	font-family: LFT Etica;
+	font-size: 16px;
+	color: #abadad;
+}
+
+img {
+}
+
+a:link {
+	text-decoration: none;
+	color: #01bfc1;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+button {
+	font-family: LFT Etica;
+	color: #ffffff;
+	font-size: 14px;
+	border: none;
+	background-color: #01ccce;
+}
+
+button:hover {
+	color: #01ccce;
+	background: #ffffff;
 }
 
 .h1 {
-	font-size: 0em;
+	font-size: 0px;
 }
 
+.article1 {
+}
+
+.subhead {
+	font-family: LFT Etica; /* how do i get it to be book and not regular? */
+	color: #555a5b;
+}
+
+.calender {
+}
+
+.framed {
+}
+
+.films {
+}
