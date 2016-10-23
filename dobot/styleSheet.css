@@ -1,35 +1,38 @@
 body {
+	border-top: solid 4px #f8695a;
 	background-color: #1a2325;
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 960px;
-	border-top: solid 4px #f8695a;
 }
 
 header {
 }
 
 article {
-	padding: 50px 0px 50px 0px;
-	display: relative;
+	padding: 100px 0px;
 }
 
 h2 {
 	font-family: QuatroSlab;
 	font-size: 36px;
 	color: #ffffff;
+	margin-right: 440pt
 }
 
 h3 {
 	font-family: QuatroSlab;
 	font-size: 24px;
 	color: #ffffff;
+	border-top: dotted #555a5b 1pt;
+	padding-top: 25pt;
 }
 
 p {
 	font-family: LFT Etica;
 	font-size: 16px;
 	color: #abadad;
+	margin-right: 440pt;
 }
 
 img {
@@ -46,13 +49,14 @@ a:hover {
 }
 
 button {
-	display: inline-block;
 	font-family: LFT Etica;
 	color: #ffffff;
 	font-size: 14px;
 	text-transform: uppercase;
 	border: none;
 	background-color: #01ccce;
+	padding: 7pt 18pt;
+	margin-left: 25pt;
 }
 
 button:hover {
@@ -69,7 +73,11 @@ article:not(.article3) {
 	display: none;
 }
 
-.article1 {
+.section {
+}
+
+.article1, .article2, .article3 {
+	display: inline-block;
 }
 
 .subhead {
@@ -77,14 +85,12 @@ article:not(.article3) {
 	color: #555a5b;
 }
 
-.calender {
-	float: right;
+.p1_3, .p2_3, .p3_3 {
+	padding-top: 25pt;
+	padding-bottom: 25pt;
 }
 
-.framed {
-	float: right;
-}
-
-.films {
+.calender, .framed, .films {
+	border: solid #ffffff 4pt;
 	float: right;
 }
