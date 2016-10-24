@@ -15,7 +15,6 @@ article {
 	max-width: 960px;
 	padding: 100px 0px;
 	box-sizing: border-box;
-
 }
 
 article:not(.article3) {
@@ -56,6 +55,11 @@ a:hover {
 	color: #ffffff;
 }
 
+span {
+	font-family: Arial;
+	font-size: 20pt;
+}
+
 button {
 	font-family: "LFT Etica";
 	color: #ffffff;
@@ -73,10 +77,17 @@ button:hover {
 }
 
 .h1 {
-	display: none;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
-.article1, .article2, .article3 {
+.article {
 	overflow: auto;
 }
 
@@ -85,7 +96,7 @@ button:hover {
 }
 
 .subhead {
-	font-family: "LFT Etica"; /* how do i get it to be book and not regular??? */
+	font-family: "LFT Etica"; /* its supposed to be book but its regular? */
 	font-style: Book;
 	color: #555a5b;
 	padding-top: 7pt;
@@ -98,7 +109,7 @@ button:hover {
 	border-bottom: dotted #555a5b 1pt;
 }
 
-.calender, .framed, .films {
+.calendar, .framed, .films {
 	border: solid #ffffff 4pt;
 	float: right;
 	margin-left: 3em;
