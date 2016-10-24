@@ -23,14 +23,15 @@ article:not(.article3) {
 }
 
 h2 {
-	font-family: QuatroSlab;
+	font-family: "Quatro Slab";
 	font-size: 36px;
+	line-height: 110%;
 	color: #ffffff;
 	width: 38%;
 }
 
 h3 {
-	font-family: QuatroSlab;
+	font-family: "Quatro Slab";
 	font-size: 24px;
 	color: #ffffff;
 	padding-top: 25pt;
@@ -84,8 +85,8 @@ button:hover {
 }
 
 .subhead {
-	font-family: "LFT Etica"; /* how do i get it to be book and not regular? */
-	font-weight: book;
+	font-family: "LFT Etica"; /* how do i get it to be book and not regular??? */
+	font-style: Book;
 	color: #555a5b;
 	padding-top: 7pt;
 	padding-bottom: 10pt;
