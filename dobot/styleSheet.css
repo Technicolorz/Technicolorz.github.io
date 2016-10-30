@@ -18,7 +18,7 @@ article {
 	box-sizing: border-box;
 }
 
-article:not(.article3) {
+article:not(:last-child) {
 	border-bottom: solid 1px #555a5b;
 }
 
@@ -31,6 +31,7 @@ h2 {
 }
 
 h3 {
+	display: inline-block;
 	font-family: "Quatro Slab", sans-serif;
 	font-size: 24px;
 	color: #ffffff;
@@ -62,6 +63,7 @@ span {
 }
 
 button {
+	display: inline-block;
 	font-family: "LFT Etica", sans-serif;
 	color: #ffffff;
 	font-size: 14px;
@@ -74,14 +76,10 @@ button {
 
 button:hover {
 	color: #ffffff;
-
-	background-color: #01bfc1;
-	background-image: linear-gradient(45deg, #01b5b7 25%, transparent 25%, transparent 75%, #01b5b7 75%, #01b5b7), 
-	linear-gradient(45deg, #01bfc1 25%, transparent 25%, transparent 75%, #01bfc1 75%, #01bfc1);
-	background-size: 3px 2px; /* i tried but this code is from http://lea.verou.me/css3patterns/ + edited*/
-	/* background-position:0 0, 30px 30px
-	background-image: url("img/pattern.jpg") repeat; /* its not working?
-	background-color: #01ccce; */
+	background-position:0 0, 30px 30px
+	background: url("img/pattern.jpg");
+	background-image: url("img/pattern.jpg");
+	background-color: #01ccce;
 }
 
 .logo {
