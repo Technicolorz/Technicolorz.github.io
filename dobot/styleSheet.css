@@ -76,8 +76,7 @@ button {
 
 button:hover {
 	color: #ffffff;
-	background-position:0 0, 30px 30px
-	background: url("img/pattern.jpg");
+	/* background-position:0 0, 30px 30px */
 	background-image: url("img/pattern.jpg");
 	background-color: #01ccce;
 }
@@ -103,7 +102,7 @@ button:hover {
 	overflow: auto;
 }
 
-.p1_1, .p1_2, .p2_1, .p2_2, .p3_1, .p3_2 {
+.p1, .p2 {
 	line-height: 130%;
 }
 
@@ -121,7 +120,7 @@ button:hover {
 	border-bottom: dotted #555a5b 1pt;
 }
 
-.calendar, .framed, .films {
+.img {
 	border: solid #ffffff 4pt;
 	float: right;
 	margin-left: 3em;
