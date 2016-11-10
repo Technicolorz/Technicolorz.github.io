@@ -137,7 +137,7 @@ body {
 	}
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
 	
 	header {
 		max-width: 100%;
@@ -256,7 +256,7 @@ body {
 	}
 }
 
-@media (min-width: 301px) and (max-width: 600px) {
+@media (min-width: 351px) and (max-width: 600px) {
 
 	header {
 		margin-right: auto;
