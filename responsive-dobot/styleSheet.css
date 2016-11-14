@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'quatro';
+  src: url('fonts/quatroslab_regular-webfont.eot');
+  src: url('fonts/quatroslab_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/quatroslab_regular-webfont.woff2') format('woff2'),
+       url('fonts/quatroslab_regular-webfont.woff') format('woff'),
+       url('fonts/quatroslab_regular-webfont.ttf') format('truetype'),
+       url('fonts/quatroslab_regular-webfont.svg#quatro_slabregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'etica';
+  src: url('fonts/lft_etica_reg-webfont.eot');
+  src: url('fonts/lft_etica_reg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/lft_etica_reg-webfont.woff2') format('woff2'),
+       url('fonts/lft_etica_reg-webfont.woff') format('woff'),
+       url('fonts/lft_etica_reg-webfont.ttf') format('truetype'),
+       url('fonts/lft_etica_reg-webfont.svg#lft_eticaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
 	border-top: solid 4px #f8695a;
 	background-color: #1a2325;
@@ -31,7 +55,7 @@ body {
 	}
 
 	h2 {
-		font-family: "Quatro Slab", sans-serif;
+		font-family: 'quatro';
 		font-size: 36px;
 		line-height: 110%;
 		color: #ffffff;
@@ -39,14 +63,14 @@ body {
 
 	h3 {
 		display: inline-block;
-		font-family: "Quatro Slab", sans-serif;
+		font-family: 'quatro';
 		font-size: 24px;
 		color: #ffffff;
 		padding-top: 25pt;
 	}
 
 	p {
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica';
 		font-size: 16px;
 		color: #abadad;
 		padding-top: 7pt;
@@ -70,7 +94,7 @@ body {
 
 	button {
 		display: inline-block;
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica';
 		color: #ffffff;
 		font-size: 14px;
 		text-transform: uppercase;
@@ -113,7 +137,7 @@ body {
 	}
 
 	.subhead {
-		font-family: "LFT Etica", sans-serif; /* its supposed to be book but its regular? */
+		font-family: 'etica'; /* its supposed to be book but its regular? */
 		font-style: Book;
 		color: #555a5b;
 		padding-top: 7pt;
@@ -159,7 +183,7 @@ body {
 		font-size: 36px;
 		line-height: 100%;
 		width: 100%;
-		font-family: "Quatro Slab", sans-serif;
+		font-family: 'quatro', sans-serif;
 		font-size: 36px;
 		line-height: 110%;
 		color: #ffffff;
@@ -169,12 +193,12 @@ body {
 		font-size: 24px;
 		padding-top: 10pt;
 		display: inline-block;
-		font-family: "Quatro Slab", sans-serif;
+		font-family: 'quatro', sans-serif;
 		color: #ffffff;
 	}
 
 	p {
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		font-size: 16px;
 		color: #abadad;
 		padding-top: 7pt;
@@ -199,7 +223,7 @@ body {
 		border: none;
 		padding: 7pt 18pt;
 		margin-left: 25pt;
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		color: #ffffff;
 		text-transform: uppercase;
 		background-color: #01ccce;	
@@ -230,7 +254,7 @@ body {
 	.subhead {
 		padding-top: 3pt;
 		padding-bottom: 5pt;
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		font-style: Book;
 		color: #555a5b;
 		padding-top: 7pt;
@@ -284,7 +308,7 @@ body {
 	}
 
 	h2 {
-		font-family: "Quatro Slab", sans-serif;
+		font-family: 'quatro', sans-serif;
 		font-size: 26px;
 		line-height: 110%;
 		color: #ffffff;
@@ -292,14 +316,14 @@ body {
 
 	h3 {
 		display: inline-block;
-		font-family: "Quatro Slab", sans-serif;
+		font-family: 'quatro', sans-serif;
 		font-size: 18px;
 		color: #ffffff;
 		padding-top: 20px;
 	}
 
 	p {
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		font-size: 14px;
 		color: #abadad;
 		padding-top: 7px;
@@ -319,7 +343,7 @@ body {
 
 	button {
 		display: inline-block;
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		color: #ffffff;
 		font-size: 14px;
 		text-transform: uppercase;
@@ -355,7 +379,7 @@ body {
 	}
 
 	.subhead {
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		font-style: Book;
 		color: #555a5b;
 		padding-top: 7px;
@@ -409,7 +433,7 @@ body {
 	}
 
 	h2 {
-		font-family: "Quatro Slab", sans-serif;
+		font-family: 'quatro', sans-serif;
 		font-size: 36px;
 		line-height: 110%;
 		color: #ffffff;
@@ -417,14 +441,14 @@ body {
 
 	h3 {
 		display: inline-block;
-		font-family: "Quatro Slab", sans-serif;
+		font-family: 'quatro', sans-serif;
 		font-size: 24px;
 		color: #ffffff;
 		padding-top: 25pt;
 	}
 
 	p {
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		font-size: 16px;
 		color: #abadad;
 		padding-top: 7pt;
@@ -448,7 +472,7 @@ body {
 
 	button {
 		display: inline-block;
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		color: #ffffff;
 		font-size: 14px;
 		text-transform: uppercase;
@@ -491,7 +515,7 @@ body {
 	}
 
 	.subhead {
-		font-family: "LFT Etica", sans-serif;
+		font-family: 'etica', sans-serif;
 		font-style: Book;
 		color: #555a5b;
 		padding-top: 7pt;
