@@ -3,7 +3,7 @@ body {
 	background-color: #1a2325;
 }
 
-@media (min-width: 976px) {
+@media (min-width: 1001px) {
 
 	header {	
 		margin-right: auto;
@@ -381,7 +381,7 @@ body {
 	}
 }
 
-@media (min-width: 601px) and (max-width: 975px) {
+@media (min-width: 601px) and (max-width: 1000px) {
 
 	header {	
 		margin-right: auto;
