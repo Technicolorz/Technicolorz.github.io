@@ -1,4 +1,4 @@
-@font-face {
+@font-face { /* quatro */
   font-family: 'quatro';
   src: url('fonts/quatroslab_regular-webfont.eot');
   src: url('fonts/quatroslab_regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-@font-face {
+@font-face { /* etica */
   font-family: 'etica';
   src: url('fonts/lft_etica_reg-webfont.eot');
   src: url('fonts/lft_etica_reg-webfont.eot?#iefix') format('embedded-opentype'),
