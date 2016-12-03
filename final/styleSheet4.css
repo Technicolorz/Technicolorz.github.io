@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+}
+
+h3 {
+	color: white;
+}
+
+a {
+	position: fixed;
+	z-index: 3;
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+	font-family: serif;
+}
+
+.linkb {
+	left: 2%;
+	top: 90%;
+}
+
+/*
+.txt {
+	position: absolute;
+	height: 100%;
+	top: 100%;
+	left: 30%;
+	padding-top: 50px;
+	font-family: sans-serif;
+	font-size: 56px;
