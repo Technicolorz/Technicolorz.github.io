@@ -55,3 +55,16 @@ a {
 	height: 100%;
 	overflow: hidden;
 }
+
+@keyframes mymove {
+	from {left: 100%;}
+	to {left: -500px;}
+}
+
+.test {
+	position: relative;
+	z-index: 4;
+	left: 150%;
+	animation: mymove 10s infinite;
+	animation-delay: 3s;
+}
