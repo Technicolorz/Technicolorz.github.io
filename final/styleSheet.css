@@ -60,12 +60,12 @@ a {
 }
 
 /*
-@keyframes testmove {
+@keyframes testmove 
 	0% {left: 100%; transform: scale(1,1); opacity: .2;}
 	100% {left: 0px; opacity: 1; transform: scale(2,2);}
 }
 
-.test {
+.test 
 	position: relative;
 	z-index: 4;
 	left: 100%;
