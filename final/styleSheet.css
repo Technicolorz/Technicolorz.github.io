@@ -1,4 +1,5 @@
 body {
+	max-width: 1200px;
 	background-color: black;
 }
 
@@ -9,7 +10,7 @@ h1 {
 	font-size: 50px;
 }
 
-h2{
+h2 {
 	padding-top: 10px;
 	color: #f8f8f8;
 	font-family: sans-serif;
@@ -29,9 +30,10 @@ a {
 }
 
 .img1 {
-	background-image: url("img/titlebg.png");
+	background-image: url("img/webimg/titlebg.png");
 	background-size: cover;
-	background-position: center;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	position: fixed;
 	width: 100%;
@@ -46,9 +48,10 @@ a {
 }
 
 .img2 {
-	background-image: url("img/titlechildren.png");
+	background-image: url("img/webimg/titlechildren.png");
 	background-size: cover;
-	background-position: center;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	position: fixed;
 	width: 100%;
@@ -56,15 +59,18 @@ a {
 	overflow: hidden;
 }
 
-@keyframes mymove {
-	from {left: 100%;}
-	to {left: -500px;}
+/*
+@keyframes testmove {
+	0% {left: 100%; transform: scale(1,1); opacity: .2;}
+	100% {left: 0px; opacity: 1; transform: scale(2,2);}
 }
 
 .test {
 	position: relative;
 	z-index: 4;
-	left: 150%;
-	animation: mymove 10s infinite;
+	left: 100%;
+	animation: testmove 3s infinite;
 	animation-delay: 3s;
+	animation-timing-function: cubic-bezier(0.4, 0, 1, 0.06);
+	transform: scale(0,0);
 }
