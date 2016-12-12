@@ -8,10 +8,10 @@ h3 {
 	color: #f8f8f8;
 	height: auto;
 	top: 470%;
-	left: 50%;
+	width: 100%;
 	text-align: center;
-	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 26px;
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 16px;
 	line-height: 35px;
 }
 
@@ -19,9 +19,14 @@ a {
 	position: fixed;
 	z-index: 3;
 	text-decoration: none;
-	color: #f8f8f8;
+	color: #2E2F37;
 	font-size: 50px;
 	font-family: serif;
+}
+
+a:hover {
+	transition: 2s;
+	color: #f8f8f8;
 }
 
 .linkb {
@@ -32,6 +37,21 @@ a {
 .linkh {
 	left: 94%;
 	top: 90%;
+}
+
+.scroll {
+	z-index: 3;
+	position: fixed;
+	left: 50%;
+	top: 90%;
+	color: #2E2F37;
+	font-family: serif;
+	font-size: 65px;
+}
+
+.scroll:hover {
+	transition: 2s;
+	color: #E6E64B;
 }
 
 .img1 {
@@ -68,20 +88,9 @@ a {
 	left: 2%;
 	position: fixed;
 	bottom: 70px;
-	overflow: scroll;
+	overflow: hidden;
 	z-index: 2;
 	animation: rotate 40s infinite;
 	animation-delay: 0s;
 	animation-timing-function: ease-in-out;
 }
-
-
-/*
-.txt {
-	position: absolute;
-	height: 100%;
-	top: 100%;
-	left: 30%;
-	padding-top: 50px;
-	font-family: sans-serif;
-	font-size: 56px;

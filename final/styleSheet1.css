@@ -28,6 +28,21 @@ a:hover {
 	top: 90%;
 }
 
+.scroll {
+	z-index: 3;
+	position: fixed;
+	left: 50%;
+	top: 90%;
+	color: #2E2F37;
+	font-family: serif;
+	font-size: 65px;
+}
+
+.scroll:hover {
+	transition: 2s;
+	color: #E6E64B;
+}
+
 .img1 {
 	background-image: url("img/webimg/skybg.jpg");
 	background-size: cover;

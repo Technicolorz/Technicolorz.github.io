@@ -34,6 +34,21 @@ a:hover {
 	top: 90%;
 }
 
+.scroll {
+	z-index: 3;
+	position: fixed;
+	left: 50%;
+	top: 90%;
+	color: #2E2F37;
+	font-family: serif;
+	font-size: 65px;
+}
+
+.scroll:hover {
+	transition: 2s;
+	color: #E6E64B;
+}
+
 .l1 { /*...And if we*/
 	position: absolute;
 	height: 80%;
@@ -156,7 +171,7 @@ a:hover {
 
 .n4 { /*..You know, I feel*/
 	position: absolute;
-	height: 120%;
+	height: 30%;
 	top: 550%;
 	left: 60%;
 	padding-top: 50px;
