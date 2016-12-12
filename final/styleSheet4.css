@@ -3,14 +3,23 @@ body {
 }
 
 h3 {
-	color: white;
+	position: absolute;
+	display: block;
+	color: #f8f8f8;
+	height: auto;
+	top: 470%;
+	left: 50%;
+	text-align: center;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 26px;
+	line-height: 35px;
 }
 
 a {
 	position: fixed;
 	z-index: 3;
 	text-decoration: none;
-	color: white;
+	color: #f8f8f8;
 	font-size: 50px;
 	font-family: serif;
 }
@@ -19,6 +28,37 @@ a {
 	left: 2%;
 	top: 90%;
 }
+
+.linkh {
+	left: 94%;
+	top: 90%;
+}
+
+.img1{
+	width: 100%;
+}
+
+@keyframes rotate {
+	from {
+    transform: rotate(0deg); transform-origin: x-axis(center); transform-origin: y-axis(center);
+  }
+  to {
+    transform: rotate(1800deg);
+  }
+}
+
+.rotate {
+	width: 100%;
+	height: auto;
+	left: 2%;
+	position: fixed;
+	bottom: 70px;
+	z-index: 2;
+	animation: rotate 40s infinite;
+	animation-delay: 0s;
+	animation-timing-function: ease-in-out;
+}
+
 
 /*
 .txt {

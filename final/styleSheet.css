@@ -1,3 +1,5 @@
+
+
 body {
 	max-width: 1200px;
 	background-color: black;
@@ -8,14 +10,19 @@ h1 {
 	color: #f8f8f8;
 	font-family: sans-serif;
 	font-size: 50px;
+	opacity: .96;
+}
+
+span {
+	font-style: italic;
 }
 
 h2 {
 	padding-top: 10px;
 	color: #f8f8f8;
-	font-family: sans-serif;
+	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 42px;
-
+	opacity: .96;
 }
 
 a {
@@ -24,9 +31,14 @@ a {
 	left: 95%;
 	top: 90%;
 	text-decoration: none;
-	color: white;
+	color: #2E2F37;
 	font-size: 50px;
 	font-family: serif;
+}
+
+a:hover {
+	transition: 2s;
+	color: #f8f8f8;
 }
 
 .img1 {
@@ -42,9 +54,22 @@ a {
 }
 
 .txt {
-	position: absolute;
+	position: fixed;
 	left: 60%;
 	top: 5%;
+}
+
+.info{
+	position: absolute;
+	color: #F5F5F9;
+	left: 2%;
+	height: 8%;
+	top: 86%;
+	padding-top: 50px;
+	font-family: sans-serif;
+	font-size: 15px;
+	opacity: .45;
+	z-index: 5;
 }
 
 .img2 {
@@ -59,19 +84,21 @@ a {
 	overflow: hidden;
 }
 
-/*
-@keyframes testmove 
-	0% {left: 100%; transform: scale(1,1); opacity: .2;}
-	100% {left: 0px; opacity: 1; transform: scale(2,2);}
+@keyframes hover {
+	0% {left: 0%; opacity: 0;}
+	50% {left: 0%; opacity: 1;}
+	100% {left: 0px; opacity: 0;}
 }
 
-.test 
-	position: relative;
-	z-index: 4;
-	left: 100%;
-	animation: testmove 3s infinite;
-	animation-delay: 3s;
-	animation-timing-function: cubic-bezier(0.4, 0, 1, 0.06);
-	transform: scale(0,0);
+.hover  {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	bottom: 0px;
+	margin-left: auto;
+	z-index: 2;
+	left: 0%;
+	animation: hover 12s infinite;
+	animation-delay: 0s;
+	animation-timing-function: ease-in-out;
 }
-*/
